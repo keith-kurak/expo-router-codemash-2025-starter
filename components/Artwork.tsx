@@ -14,16 +14,12 @@ export function Artwork({ exhibitName, artwork }: Props) {
       className={classNames("mb-4 sm:mb-0", "px-4 py-2 gap-y-2 sm:basis-1/2")}
     >
       {exhibitName ? (
-        <Link asChild href={`/exhibits/${exhibitName}`}>
-          <Pressable>
-            <View className="flex-row items-center gap-x-2">
-              <Text className="text-l uppercase font-bold tracking-widest">
-                {exhibitName}
-              </Text>
-              <View className="flex-1 h-0.5 bg-shade-2" />
-            </View>
-          </Pressable>
-        </Link>
+        <View className="flex-row items-center gap-x-2">
+          <Text className="text-l uppercase font-bold tracking-widest">
+            {exhibitName}
+          </Text>
+          <View className="flex-1 h-0.5 bg-shade-2" />
+        </View>
       ) : null}
 
       <Pressable className="flex-row sm:flex-col gap-x-2 h-48 sm:h-96">
