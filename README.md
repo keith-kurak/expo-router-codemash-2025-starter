@@ -4,7 +4,7 @@ Workshop starter template for the Expo Router workshop at CodeMash 2025.
 ## How to use this repo
 
 1. Fork this repo. You'll start working right on `main`.
-2. Grab the [lessons from here](https://github.com/keith-kurak/expo-router-codemash-2025-lessons) (clone it, open it in your browser, whatever works for you).
+2. Grab the [lessons from here](https://github.com/keith-kurak/expo-router-codemash-2025-lessons) (clone it or open it in your browser, whatever works for you).
 2. Start at the first module by opening up the file starting with "01-".
 3. Do the rest of the modules in order.
 
