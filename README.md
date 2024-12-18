@@ -28,7 +28,7 @@ Alternatively, you can use an emulator/simulator and the Expo CLI will install E
 For most exercises, Expo Go and the web browser are interchangable for testing your code, so don't worry if you have issues with this step.
 
 ### 3. Download the starter repo and make sure it works
-1. Fork and clone the [Starter repo]([lessons from here](https://github.com/keith-kurak/expo-router-codemash-2025-starter) to your computer. (I recommend [GitHub Desktop](https://desktop.github.com/download/) if you don't already have a git client)
+1. Fork and clone the [Starter repo](https://github.com/keith-kurak/expo-router-codemash-2025-starter) to your computer. (I recommend [GitHub Desktop](https://desktop.github.com/download/) if you don't already have a git client)
 
 2. Open the project in Visual Studio Code and install the recommended extensions when it prompts you do to so.
 
