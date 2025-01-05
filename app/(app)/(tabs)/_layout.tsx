@@ -23,7 +23,12 @@ export default function TabLayout() {
       <TabTrigger name="index" href="/(home)" asChild>
         <TabButton icon="museum">Home</TabButton>
       </TabTrigger>
-      <TabTrigger name="exhibits" asChild href="/(exhibits)" reset="always">
+      <TabTrigger
+        name="exhibits"
+        asChild
+        href="/(exhibits)/exhibits"
+        reset="always"
+      >
         <TabButton icon="palette">Exhibits</TabButton>
       </TabTrigger>
       <TabTrigger name="visit" asChild href="/visit">
