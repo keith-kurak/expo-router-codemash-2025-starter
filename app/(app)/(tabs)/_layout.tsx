@@ -4,6 +4,11 @@ import customColors from "@/constants/colors";
 import colors from "@/constants/colors";
 import { TabBarIcon } from "@/components/TabBarIcon";
 
+export const unstable_settings = {
+  // Ensure any route can link back to `/`
+  initialRouteName: "index",
+};
+
 export default function TabLayout() {
   return (
     <Tabs
@@ -28,6 +33,15 @@ export default function TabLayout() {
           title: "Exhibits",
           tabBarIcon: ({ color }) => (
             <TabBarIcon type="MaterialIcons" name="palette" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="visit"
+        options={{
+          title: "Visit",
+          tabBarIcon: ({ color }) => (
+            <TabBarIcon type="MaterialIcons" name="map" color={color} />
           ),
         }}
       />
