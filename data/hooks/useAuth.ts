@@ -9,7 +9,7 @@ const useAuth = () => {
   const [authToken, setAuthToken] = useAtom(authTokenAtom);
 
   const login = async (email: string, password: string) => {
-    
+    await setAuthToken("whatever");
   };
 
   const logout = async () => {
