@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Art Museum!",
-    "slug": "expo-router-london-2024-starter",
+    "slug": "expo-router-codemash-2024-starter",
     "version": "1.0.0",
     "newArchEnabled": true,
     "orientation": "portrait",
@@ -42,6 +42,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://artthing3.dev/"
+      },
+      "eas": {
+        "projectId": "8f718eb5-c459-4554-8fa0-251ab99896d3"
+      }
     }
   }
 }
