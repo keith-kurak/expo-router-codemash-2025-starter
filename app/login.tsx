@@ -36,9 +36,15 @@ export default function LoginScreen() {
         <Button
           onPress={async () => {
             await login(email, password);
-            router.replace('/(app)');
+            router.replace("/(app)");
           }}
           label="Log in"
+        />
+        <Button
+          onPress={async () => {
+            router.navigate("/sign-up");
+          }}
+          label="Sign up"
         />
       </View>
     </KeyboardAvoidingView>
